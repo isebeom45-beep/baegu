@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>🏐 THE SPIKE: IMAGE EDITION 🏐</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="score-board">
+        <span id="p1-score">00</span>
+        <span id="p2-score">00</span>
+    </div>
+
+    <canvas id="gameCanvas" width="1700" height="850"></canvas>
+
+    <div id="control-info">
+        <span>🧡 1P: <span class="key">A</span><span class="key">D</span> 이동 / <span class="key">W</span> 점프 / 공중에서 <span class="key">T</span> <span class="highlight">스파이크</span></span>
+        <span>💡 난이도 하향 완료 (넓은 타점 판정 가이드 링 적용)</span>
+        <span>💙 2P: <span class="key">◀</span><span class="key">▶</span> 이동 / <span class="key">▲</span> 점프 / 공중에서 <span class="key">Enter</span> <span class="highlight">스파이크</span></span>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
